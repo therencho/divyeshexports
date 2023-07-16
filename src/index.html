@@ -36,32 +36,23 @@
     <nav class="border-gray-200 bg-gray-900">
       <div class="w-full h-10 flex justify-end gap-10 items-center text-white">
         <div
-          class="absolute right-full md:right-80 z-40 md:skew-x-[45deg] bg-gray-900 h-16"
+          class="absolute  right-full md:w-96 md:-left-10 z-40 lg:w-1/2 xl:w-9/12 md:skew-x-[45deg] bg-gray-900 h-16"
         ></div>
         <div
-          class="absolute top-0 right-0 bg-teal-400 text-white w-full text-center"
+          class="absolute top-0 right-0 bg-teal-400 text-white w-full text-center lg:flex lg:justify-end lg:gap-8 md:text-end pr-4"
         >
           <a href="tel:+917016425281">+91 70164 25281</a>
           <div>sales@divyeshexports.com</div>
         </div>
       </div>
 
-      <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-      >
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center">
-          <img
-            src="./images/logo.png"
-            class="h-8 mr-3"
-            alt="Divyesh Exports logo"
-          />
-          <span
-            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-            >Divyesh Exports</span
-          >
+          <img src="./images/logo.png" class="h-8 mr-3" alt="Divyesh Exports logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Divyesh Exports</span>
         </a>
         <button
-          data-collapse-toggle="navbar-default"
+          id="toggleButton"
           type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
@@ -85,37 +76,31 @@
           </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-          >
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                class="block py-2 pl-3 pr-4 text-white bg-teal-400 rounded md:bg-transparent md:text-teal-500 md:p-0 dark:text-white md:dark:text-teal-400"
                 aria-current="page"
-                >Home</a
-              >
+              >Home</a>
             </li>
             <li>
               <a
                 href="#about"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >About</a
-              >
+              >About</a>
             </li>
             <li>
               <a
                 href="#products"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Products</a
-              >
+              >Products</a>
             </li>
             <li>
               <a
                 href="./pages/contact.html"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Contact</a
-              >
+              >Contact</a>
             </li>
           </ul>
         </div>
@@ -178,7 +163,7 @@
 
       <section class="bg-white mt-16">
         <div
-          class="py-1 px-4 relative -top-20 mx-auto bg-gray-800 rounded-2xl max-w-screen-xl sm:py-16 lg:px-6"
+          class="py-1 px-4 relative -top-20 lg:-top-28 mx-auto bg-gray-800 rounded-2xl max-w-screen-xl sm:py-16 lg:px-6"
         >
           <h2
             class="mb-10 text-4xl tracking-tight text-center font-extrabold text-white"
@@ -258,37 +243,22 @@
         </div>
       </section>
       <!-- ====== About Section Start -->
-      <section
-        class="overflow-hidden pt-10 pb-12 lg:pt-[20px] lg:pb-[20px]"
-        id="about"
-      >
-        <div class="container mx-auto">
-          <div class="-mx-4 flex flex-wrap items-center justify-between">
-            <div class="w-full px-6 md:px-4 lg:w-6/12">
-              <div class="-mx-3 flex items-center sm:-mx-4">
+      <section class="overflow-hidden pt-10 pb-12 lg:pt-20 lg:pb-20" id="about">
+        <div class="container mx-auto px-4 lg:px-0">
+          <div class="lg:mx-1 flex flex-wrap items-center justify-center">
+            <div class="w-full px-1 md:px-1 lg:w-6/12">
+              <div class=" flex items-center">
                 <div class="w-full px-3 sm:px-4 xl:w-1/2">
-                  <div class="py-2 sm:py-4">
-                    <img
-                      src="./images/about/one.jpg"
-                      alt=""
-                      class="w-full rounded-2xl"
-                    />
+                  <div class="py-2 sm:py-2">
+                    <img src="./images/about/one.jpg" alt="" class="w-full rounded-2xl" />
                   </div>
-                  <div class="py-3 sm:py-4">
-                    <img
-                      src="./images/about/two.jpg"
-                      alt=""
-                      class="w-full rounded-2xl"
-                    />
+                  <div class="py-3 sm:py-1">
+                    <img src="./images/about/two.jpg" alt="" class="w-full rounded-2xl" />
                   </div>
                 </div>
-                <div class="w-full px-3 sm:px-4 xl:w-1/2">
+                <div class="w-full px-3 sm:px-1 xl:w-1/2">
                   <div class="relative z-10 my-4">
-                    <img
-                      src="./images/about/three.jpg"
-                      alt=""
-                      class="w-full rounded-2xl"
-                    />
+                    <img src="./images/about/three.jpg" alt="" class="w-full rounded-2xl" />
                     <span class="absolute -right-7 -bottom-7 z-[-1]">
                       <svg
                         width="134"
@@ -863,40 +833,26 @@
                 </div>
               </div>
             </div>
-            <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div class="w-full px-1 md:px-0 lg:w-1/2 xl:w-5/12">
               <div class="mt-10 lg:mt-0">
-                <span
-                  class="text-primary mb-2 block text-lg font-semibold text-center"
-                >
-                  About Us
-                </span>
-                <h2
-                  class="text-dark mb-8 text-2xl font-bold sm:text-4xl text-center"
-                >
-                  Nurturing Partnership, Harvesting Freshness
-                </h2>
+                <span class="text-primary mb-2 block text-lg font-semibold text-center md:text-start ml-8">About Us</span>
+                <h2 class="text-dark mb-8 text-2xl font-bold sm:text-4xl text-center">Nurturing Partnership, Harvesting Freshness</h2>
                 <p class="text-body-color mb-8 text-base mx-2">
-                  At Divyesh Exports, we are determined about delivering finest
-                  and fresh vegitables and fruits. As a trusted Exporter we
-                  source the highest quality produce from our trusted network of
-                  farmers and suppliers.we are also sons of farmers, many of our
-                  produces straight from our own farm.
+                  At Divyesh Exports, we are determined about delivering finest and fresh vegetables and fruits. As a trusted Exporter, we source the highest quality produce from our trusted network of farmers and suppliers. We are also sons of farmers, many of our products straight from our own farm.
                 </p>
                 <p class="text-body-color mb-12 text-base mx-2">
-                  W always makesure that all of our products go through rigorous
-                  quality checks.Our commitment to excellence extends beyond our
-                  products, as we strive to build lasting partnerships with our
-                  clients by providing exceptional service and reliable
-                  delivery.
+                  We always make sure that all of our products go through rigorous quality checks. Our commitment to excellence extends beyond our products, as we strive to build lasting partnerships with our clients by providing exceptional service and reliable delivery.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+      
+      
       <!-- ====== About Section End -->
 
-      <!-- ====== Portfolio Section Start -->
+      <!-- ====== Products Section Start -->
       <section
         class="pt-10 pb-10 lg:pt-[40px] lg:pb-[40px] bg-gray-900"
         id="products"
@@ -912,7 +868,7 @@
               We Offers Wide range of agricultural products. orders
             </p>
           </div>
-          <div class="swiper mx-auto mySwiper">
+          <div class="swiper mx-auto mySwiper container">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div
@@ -924,7 +880,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Vegetables
@@ -943,7 +899,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Onion</h3>
                     </div>
@@ -960,7 +916,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Grapes</h3>
                     </div>
@@ -977,7 +933,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Mangoes</h3>
                     </div>
@@ -994,7 +950,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Dried and Preserved Fruits and Vegetables
@@ -1013,7 +969,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Mango Pulp
@@ -1032,7 +988,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Jaggery</h3>
                     </div>
@@ -1049,7 +1005,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Millets</h3>
                     </div>
@@ -1066,7 +1022,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Wheat</h3>
                     </div>
@@ -1076,7 +1032,7 @@
             </div>
           </div>
 
-          <div class="swiper mx-auto mySwiper mt-4">
+          <div class="swiper mx-auto mySwiper mt-4 container">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div
@@ -1088,7 +1044,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Basmati Rice
@@ -1107,7 +1063,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Cereal Preparation
@@ -1126,7 +1082,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Guargum</h3>
                     </div>
@@ -1143,7 +1099,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Dairy Products
@@ -1162,7 +1118,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Non Basmati
@@ -1181,7 +1137,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">Walnut</h3>
                     </div>
@@ -1198,7 +1154,7 @@
                   />
                   <div class="absolute bottom-4 left-0 w-full text-center">
                     <div
-                      class="relative mx-8 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
+                      class="relative mx-auto w-44 sm:w-48 overflow-hidden rounded-lg bg-slate-200/90 py-2 px-3"
                     >
                       <h3 class="text-dark text-base font-semibold">
                         Pickle and Chutney
@@ -1216,20 +1172,20 @@
       <section class="container mx-auto">
         <div class="max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8">
           <div
-            class="grid grid-cols-1 lg:h-screen lg:grid-cols-2 justify-center"
+            class="grid grid-cols-1 lg:h-[90vh] lg:grid-cols-2 justify-center"
           >
             <div class="relative z-10 lg:py-16">
-              <div class="relative h-64 sm:h-80 lg:h-full">
+              <div class="relative h-64 sm:h-80 md:h-96 lg:h-[80vh]">
                 <img
                   alt="House"
-                  src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  src="images/banner.jpg"
                   class="absolute inset-0 h-full w-full object-cover rounded-md"
                 />
               </div>
             </div>
 
             <div
-              class="relative -top-10 left-36 lg:top-36 lg:-left-16 sm:left-44 sm:w-64 sm:h-64 md:left-48 z-20 w-56 md:w-96 h-56 md:h-96 bg-gray-400 rounded-full flex justify-center items-center"
+              class="relative -top-10 mx-auto md:mx-14 lg:top-20 lg:-left-28 xl:top-20 sm:left-48 sm:w-64 sm:h-64 md:left-36 z-20 w-56 md:w-96 h-56 md:h-96 lg:w-[500px] lg:h-[500px] bg-gray-400 rounded-full flex justify-center items-center"
             >
               <h2
                 class="text-2xl flex justify-center items-center font-bold sm:text-3xl"
@@ -1264,7 +1220,7 @@
             class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3 place-items-center"
           >
             <div
-              class="rounded-md border w-64 md:w-72 md:h-72 h-64 border-neutral-800 bg-neutral-800 p-2 text-center shadow"
+              class="rounded-md border w-64 md:w-72 md:h-72 xl:w-80 xl:p-6 h-64 border-neutral-800 bg-neutral-800 p-2 text-center shadow"
             >
               <div
                 class="button-text mx-auto flex h-10 w-10 items-center justify-center rounded-md border"
@@ -1312,7 +1268,7 @@
             </div>
 
             <div
-              class="rounded-md w-64 h-64 md:w-72 md:h-72 border border-neutral-800 bg-neutral-800 p-2 text-center shadow"
+              class="rounded-md w-64 h-64 md:w-72 md:h-72 xl:w-80 xl:p-6 border border-neutral-800 bg-neutral-800 p-2 text-center shadow"
             >
               <div
                 class="button-text mx-auto flex h-10 w-10 items-center justify-center rounded-md border"
@@ -1353,7 +1309,7 @@
             </div>
 
             <div
-              class="rounded-md w-64 h-64 md:w-72 md:h-72 border border-neutral-800 bg-neutral-800 p-2 text-center shadow"
+              class="rounded-md w-64 h-64 md:w-72 xl:w-80 xl:p-6 md:h-72 border border-neutral-800 bg-neutral-800 p-2 text-center shadow"
             >
               <div
                 class="button-text mx-auto flex h-10 w-10 items-center justify-center rounded-md border"

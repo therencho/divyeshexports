@@ -15,8 +15,6 @@ if (w <= 500) {
   slidesperview = 4;
 }
 
-console.log(w);
-
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: slidesperview,
   spaceBetween: 10,
@@ -24,4 +22,12 @@ var swiper = new Swiper(".mySwiper", {
     delay: 3000,
     disableOnInteraction: false,
   },
+});
+
+
+const toggleButton = document.getElementById('toggleButton');
+const navbar = document.getElementById('navbar-default');
+
+toggleButton.addEventListener('click', function () {
+  navbar.classList.toggle('hidden');
 });
